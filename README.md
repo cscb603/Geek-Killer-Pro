@@ -1,50 +1,62 @@
-# 星TAP 极客进程杀死 | Geek Killer Pro (High-Performance Process Terminator)
+# 极客进程终止器 | Geek Killer
 
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Language](https://img.shields.io/badge/language-Rust-orange.svg)](https://www.rust-lang.org/)
 
 ### **[中文]**
 
-**电脑突然卡死？软件关不掉？这工具就是为你准备的。**
+**电脑卡到鼠标都动不了？顽固软件关不掉？这个工具就是你的“急救按钮”。**
 
 ![界面演示](Resources/界面配图演示.png)
 
-**星TAP | 电脑卡顿急救箱 (Geek Killer Pro)** 是一款专门对付“软件流氓”和“系统假死”的极简小工具。当你遇到某个软件占着内存不放、电脑风扇狂转、或者游戏/设计软件突然点不动时，它能像“急救按钮”一样，瞬间切除那些导致卡顿的元凶。
+**极客进程终止器 (Geek Killer)** 是一款专为 Windows 极端环境设计的 Rust 原生工具。它不像系统自带的任务管理器那样臃肿，而是追求在资源耗尽时的极致响应速度。
 
-- **✅ 拯救卡顿**: 专门针对电脑极度卡顿优化，即使鼠标都快动不了了，它依然能顺滑打开并强制杀掉元凶。
-- **✅ 专治“全家桶”**: 不只是关掉一个窗口，它能一键连根拔起整个进程树，杜绝软件死掉后还在后台偷偷运行。
-- **✅ 傻瓜式识别**: 别担心看不懂技术名词，它会自动把最耗资源的“罪魁祸首”标红置顶，你只管点“杀死”就行。
-- **✅ 绝对安全**: 自动隐藏系统核心文件，就算你是小白，也不用担心点错导致蓝屏重启。
-- **✅ 纯绿色免安装**: 只有一个小文件，放在桌面随用随点，不占空间，不写系统注册表。
+#### **🌟 为什么选择它？**
+- **✅ 丝滑响应**：基于 Rust + `egui` 原生驱动，即使在 CPU/内存 100% 占用的情况下，界面依然不掉帧、不白屏。
+- **✅ 智能“捉鬼”**：自动把最吃资源的“罪魁祸首”标红置顶，省去在几百个进程里翻找的痛苦。
+- **✅ 连根拔起**：支持“终止全组”，一键干掉全家桶关联进程，杜绝死灰复燃。
+- **✅ 极简绿色**：单文件 exe，无安装程序，不占注册表，随用随走。
 
-#### **快速开始**
-1. 下载 `Geek_Killer_Pro_v1.0.0_Win_Portable.zip`。
-2. 解压后直接双击 `Geek_Killer_Pro.exe`。
-3. **小贴士**：右键“以管理员身份运行”效果更佳，能干掉权限更高的顽固进程。
+#### **🚀 快速开始**
+1. 下载 `Geek_Killer_v1.0.0.zip`。
+2. 解压并运行 `杀死进程.exe`。
+3. **极客建议**：右键“以管理员身份运行”可解锁最高杀敌权限。
 
 ---
 
 ### **[English]**
 
-**Is your PC freezing? Can't close a stubborn app? This is your lifesaver.**
+**System freezing? Stubborn apps won't close? This is your "Emergency Reset" button.**
 
-**Geek Killer Pro** is a minimalist tool designed to rescue your system from freezes and resource-hogging apps. Whether it's a game that won't exit or a design tool sucking up all your RAM, this tool acts like a surgical strike to remove "zombie processes" instantly.
+**Geek Killer** is a high-performance process terminator built with Rust. Unlike the heavy Windows Task Manager, it focuses on extreme responsiveness when your system is struggling for breath.
 
-- **Key Features**:
-  - **Freeze Resilient**: Optimized for high-load scenarios; remains responsive even when the system is stuttering.
-  - **Full Group Kill**: Terminates an entire process tree to ensure no background remnants are left.
-  - **Smart Identification**: Automatically highlights resource-heavy culprits so you don't have to guess.
-  - **Failsafe**: Protects core system processes to prevent accidental BSODs for casual users.
-  - **Portable & Clean**: Single-file executable; no installation, no clutter, no registry changes.
+#### **🌟 Key Features**
+- **✅ Zero Lag Interface**: Powered by Rust + `egui` native rendering. Remains fluid even under 100% system load.
+- **✅ Smart Culprit Pinning**: Automatically identifies and highlights resource hogs at the top of the list.
+- **✅ Process Tree Wipe**: Terminate entire groups of associated processes with one click.
+- **✅ Portable & Clean**: Single-file executable. No installation, no registry clutter, no bloat.
 
-#### **Quick Start**
-1. Download `Geek_Killer_Pro_v1.0.0_Win_Portable.zip` from Releases.
-2. Run `Geek_Killer_Pro.exe`.
-3. **Pro Tip**: Run as Administrator to handle higher-privilege stubborn tasks.
+#### **🚀 Quick Start**
+1. Download `Geek_Killer_v1.0.0.zip`.
+2. Run `Geek_Killer.exe` (杀死进程.exe).
+3. **Pro Tip**: Run as Administrator to handle high-privilege stubborn tasks.
 
 ---
 
-## 🛠️ 技术规格 (Technical Specs)
-- **Engine**: Rust + egui/eframe (Extreme responsiveness)
+## �️ 技术规格 (Technical Specs)
+
+- **Engine**: Rust (Stable) + egui/eframe
 - **Backend**: sysinfo + Win32 API
-- **Design**: Coffee-Black & Retro-Gold Theme
+- **Optimization**: Zero-allocation buffer & Incremental Refresh
+- **Design**: Coffee-Black & Retro-Gold (Geek Aesthetic)
+
+## 🔨 编译 (Build)
+
+```bash
+cargo build --release
+```
+
+## 📜 协议 (License)
+
+[MIT License](LICENSE)

@@ -1,0 +1,55 @@
+========================================================================
+    极客进程终止器 | Geek Killer - 使用说明 (README)
+========================================================================
+
+【中文说明】
+------------------------------------------------------------------------
+感谢您使用 Geek Killer！这是一个专为 Windows 极端卡顿环境下设计的
+高性能进程管理工具。
+
+★ 核心亮点：
+1. 极速响应：在电脑卡到鼠标掉帧时，依然能流畅操作。
+2. 智能分类：自动识别并置顶高负载任务，一眼锁定元凶。
+3. 强力终止：支持全组终止，彻底清理残留后台。
+4. 绿色安全：单文件免安装，自动保护系统核心进程。
+
+★ 快速开始：
+1. 直接运行「杀死进程.exe」即可。
+2. 建议：右键点击程序，选择「以管理员身份运行」，以获得杀掉顽固进程的最高权限。
+3. 界面操作：
+   - 使用上方搜索框快速过滤进程名。
+   - 点击「终止」或「终止全组」清理进程。
+   - 点击右下角「诊断」或「性能」查看系统深层状态。
+
+★ 注意事项：
+- 本工具为绿色软件，不写注册表，删除文件夹即可完全卸载。
+- 默认隐藏系统核心服务，如需操作请在下方展开相关分类。
+
+------------------------------------------------------------------------
+
+[English Description]
+------------------------------------------------------------------------
+Thank you for using Geek Killer! A high-performance process manager 
+designed for Windows during extreme system stuttering or freezes.
+
+★ Key Features:
+1. Ultra Responsive: Stays smooth even when the system is under 100% load.
+2. Smart Categorization: Automatically highlights and pins resource-heavy tasks.
+3. Group Termination: Kill entire process trees to prevent background remnants.
+4. Portable & Safe: Single executable, no install, protects core system services.
+
+★ Quick Start:
+1. Run "杀死进程.exe" (Geek_Killer.exe) directly.
+2. Pro Tip: Right-click and "Run as Administrator" to handle stubborn tasks.
+3. Interface:
+   - Use the search bar at the top to filter processes.
+   - Click "Kill" or "Kill Group" to terminate tasks.
+   - Access "Diagnostics" or "Performance" at the bottom for system insights.
+
+★ Notes:
+- Portable software: no registry changes, delete the folder to uninstall.
+- System core services are hidden by default for safety.
+
+========================================================================
+Version: v1.0.0 | Developed with Rust
+========================================================================
