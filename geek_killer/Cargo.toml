@@ -1,20 +1,36 @@
 [package]
-name = "geek_killer"
+name = "geek_killer_ultimate"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-sysinfo = "0.30.13"
-eframe = "0.26.2"
-windows-sys = { version = "0.52.0", features = ["Win32_Foundation", "Win32_Security", "Win32_System_Threading"] }
+rust-core-lib = { path = "../../.trae/templates/rust-core-lib", features = ["ui"] }
+sysinfo = "0.32"
+eframe = "0.28"
+windows-sys = { version = "0.52.0", features = [
+    "Win32_Foundation", 
+    "Win32_Security", 
+    "Win32_System_Threading",
+    "Win32_Storage_FileSystem",
+    "Win32_System_IO",
+    "Win32_System_Ioctl",
+    "Win32_Devices_DeviceAndDriverInstallation",
+    "Win32_Devices_Properties",
+    "Win32_Storage_FileSystem",
+    "Win32_System_LibraryLoader",
+    "Win32_System_RestartManager",
+    "Win32_UI_Shell"
+] }
 image = { version = "0.24", features = ["ico"] }
 
 [build-dependencies]
+rust-core-lib = { path = "../../.trae/templates/rust-core-lib" }
 winres = "0.1"
 
 [profile.release]
-opt-level = 'z'
-lto = true
-codegen-units = 1
-panic = 'abort'
-strip = true
+opt-level = 'z'     # 极致体积优化
+lto = true          # 链接时优化
+codegen-units = 1   # 减少并行以提升优化质量
+panic = 'abort'     # 减少异常处理开销
+strip = true        # 移除符号表，大幅缩小体积
+
