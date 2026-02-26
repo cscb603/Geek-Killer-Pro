@@ -1,10 +1,18 @@
 # 🚀 星TAP 卡顿克星 (Win) | LagKiller
 
 > **"电脑卡死时的救命稻草，U 盘拔不掉时的强力外援。"**
+<img width="666" height="889" alt="图片" src="https://github.com/user-attachments/assets/88dc326b-2963-4c2c-b300-67a7eb85d219" />
 
-![界面预览](Resources/重构版界面截图.png)
+性能检测
+
 <img width="652" height="1114" alt="a8e383d6d26ddea59dbb27a6d05e2e0a" src="https://github.com/user-attachments/assets/ae544022-d869-4d32-beb3-43cabae72f6b" />
+
+小白友好中文进程名和
+自动分组自动归类，手动自由终止进程，
+
 <img width="666" height="1114" alt="06960e1a1334d015575a99ab79643770" src="https://github.com/user-attachments/assets/55315d0a-552b-493c-a45d-26faa66eb89d" />
+
+U盘管理和自动解除占用并退出
 
 
 
